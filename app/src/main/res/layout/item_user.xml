@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt_username"/>
+    <TextView
+        android:id="@+id/txt_dateCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/03/2020"
+        android:textSize="10dp"
+        android:layout_below="@id/txt_username"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"/>
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc@gmail.com"
+        android:textSize="10dp"
+        android:layout_below="@id/txt_dateCreated"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"/>
+
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc@gmail.com"
+        android:textSize="10dp"
+        android:layout_below="@id/txt_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"/>
+</RelativeLayout>
